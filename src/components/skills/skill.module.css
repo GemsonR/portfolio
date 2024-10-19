@@ -1,0 +1,57 @@
+.skillContainer {
+  width: 100vw;
+  max-width: 60rem;
+  margin: 0 auto;
+  padding: 3rem;
+  margin-bottom: 2rem;
+}
+.skill {
+  text-align: center;
+  font-weight: 300;
+  font-size: 2rem;
+  margin: 2rem;
+}
+.text {
+  text-align: center;
+  font-weight: 100;
+  margin: 1rem;
+}
+.skillBarContainer {
+  max-width: 60rem;
+  margin: 1rem;
+}
+.skillBar {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 2rem;
+  background-color: #0d3651;
+  border-radius: 5px;
+  margin: 1rem;
+}
+.skillText {
+  font-weight: 400;
+}
+.myskillContainer {
+  margin: 0 auto;
+  padding: 1rem;
+  max-width: 60rem;
+  text-align: center;
+}
+.myskillContainer h2 {
+  font-size: 2rem;
+  font-weight: 400;
+  margin: 3rem;
+}
+.skillImage {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+  flex-wrap: wrap;
+}
+
+.imgSkill {
+  height: 4rem;
+  width: 4rem;
+}

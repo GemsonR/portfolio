@@ -1,0 +1,70 @@
+.contactContainer {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  margin: 0 auto;
+  align-items: center;
+}
+.textContainer {
+  text-align: center;
+}
+.textContainer h2 {
+  font-size: 2rem;
+  margin: 2rem;
+  font-weight: 400;
+}
+.textContainer p {
+  font-weight: 200;
+}
+/*   */
+.contactForm {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  max-width: 40rem;
+  gap: 1rem;
+  margin: 3rem;
+}
+.contactForm input {
+  padding: 1rem 0;
+  border: none;
+  border-bottom: 1px solid grey;
+  font-size: 13px;
+  color: white;
+  font-weight: 200;
+}
+.msg{
+    font-weight: 200;
+    color: white;
+    resize: none;
+}
+
+.btnContainer {
+  align-self: center;
+  margin: 2rem;
+}
+.btnContainer button {
+  padding: 0.5rem 1rem;
+  background-color: white;
+  display: flex;
+  align-items: center;
+  gap: 0.15rem;
+  border: none;
+  border-radius: 2rem;
+  cursor: pointer;
+}
+.btnContainer button:hover {
+  background-color: rgb(233, 230, 230);
+}
+.socialContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 2rem;
+}
+.link {
+  font-size: 200px;
+}
+.links{
+  color: #ffffff;
+}
