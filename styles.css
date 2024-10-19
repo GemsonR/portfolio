@@ -1,0 +1,19 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  background: transparent;
+  font-family: "Poppins", sans-serif;
+}
+body {
+  background-color: #021526;
+  color: #f5f5f5;
+  overflow: hidden;
+  overflow-y: scroll;
+}
+@media screen and (max-width: 565px) {
+  body {
+    margin-left: 1.3rem;
+  }
+}
