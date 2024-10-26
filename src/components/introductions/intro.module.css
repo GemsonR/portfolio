@@ -58,8 +58,16 @@
   .hello {
     font-size: 1rem;
   }
+  .para{
+    font-weight: 300;
+  }
   .introText{
-    font-size: 2rem;
+    font-size: 1.5rem;
+    text-align: center;
     font-weight: 500;
+  }
+  .bgImg{
+    right: -11rem;
+   
   }
 }

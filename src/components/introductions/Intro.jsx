@@ -1,7 +1,5 @@
 import styles from "./intro.module.css";
 import profile from "../../../images/gemson.png";
-import { Link } from "react-scroll";
-import WorkOutlineOutlinedIcon from "@mui/icons-material/WorkOutlineOutlined";
 export default function Intro() {
   return (
     <section id="intro" className={styles.introContainer}>

@@ -6,6 +6,7 @@ import FacebookOutlinedIcon from "@mui/icons-material/FacebookOutlined";
 import SendIcon from "@mui/icons-material/Send";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
+import { LinkedIn } from "@mui/icons-material";
 
 export default function Contact() {
   const form = useRef();
@@ -54,7 +55,7 @@ export default function Contact() {
           rows="5"
           placeholder="Your Message"
           className={styles.msg}
-          required  
+          required
         ></textarea>
         <div className={styles.btnContainer}>
           <button type="submit" value="Send" className={styles.submit}>
@@ -66,8 +67,11 @@ export default function Contact() {
             <GitHubIcon sx={{ fontSize: 40 }} />
           </a>
 
-          <a className={styles.links} href="">
-            <InstagramIcon sx={{ fontSize: 40 }} />
+          <a
+            className={styles.links}
+            href="https://www.linkedin.com/in/gemson-radjail-259246334/"
+          >
+            <LinkedIn sx={{ fontSize: 40 }} />
           </a>
 
           <a
