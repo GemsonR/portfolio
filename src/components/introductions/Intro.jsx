@@ -8,9 +8,9 @@ export default function Intro() {
         <span>
           I'm <span className={styles.name}>Gemson</span>
         </span>
-        <span className={styles.prof}>Website Designer</span>
+        <span className={styles.prof}>Frontend Developer</span>
         <p className={styles.para}>
-          I am a skilled and passionate web designer in creating visually
+          I am a skilled and passionate Frontend Web Developer in creating visually
           appealing <br />
           and user friendly websites.
         </p>

@@ -19,13 +19,13 @@ export default function Skills() {
         <div className={styles.skillBar}>
           <ViewQuiltIcon />
           <div>
-            <h3 className={styles.skillText}>Ui/Ux Design</h3>
+            <h3 className={styles.skillText}>Ui/Ux Developer</h3>
           </div>
         </div>
         <div className={styles.skillBar}>
           <WebIcon />
           <div>
-            <h3 className={styles.skillText}>Website Design</h3>
+            <h3 className={styles.skillText}>Website Developer</h3>
           </div>
         </div>
       </div>

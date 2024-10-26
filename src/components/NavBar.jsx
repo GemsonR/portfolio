@@ -49,7 +49,7 @@ export default function NavBar() {
               .scrollIntoView({ behavior: "smooth"})
           }
         >
-          <ChatBubbleOutlineRoundedIcon /> Contact me
+          <ChatBubbleOutlineRoundedIcon className={styles.contactIcon} /> Contact me
         </button>
       </div>
     </nav>

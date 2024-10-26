@@ -44,6 +44,26 @@
   padding-bottom: 0.3rem;
   border-bottom: 1px solid yellow;
 }
-@media screen and (max-width: 565px){
-  
+@media screen and (max-width: 376px){
+  .listItem{
+    margin: 0.6rem;
+  }
+  .menuBtn{
+    font-size: 0.6rem;
+  }
+}
+@media screen and (max-width: 321px){
+.listItem{
+  margin: .5rem;
+  font-size: .8rem;
+}
+.btnContainer{
+  margin: 0.5rem;
+}
+.menuBtn{
+  font-size: .6rem;
+}
+/* .contactIcon{
+  font-size: x-small;
+} */
 }

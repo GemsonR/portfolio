@@ -27,12 +27,13 @@
 .hello {
   font-size: 1.7rem;
   font-weight: 200;
+
 }
 .name {
   color: yellow;
 }
-.prof {
-  margin-top: -1rem;
+.prof{
+  margin-top: -.5rem;
 }
 .para {
   font-size: 1rem;
@@ -54,20 +55,37 @@
 .btn:hover {
   background-color: rgb(233, 230, 230);
 }
-@media screen and (max-width: 565px) {
+@media screen and (max-width: 426px) {
   .hello {
     font-size: 1rem;
+    margin-bottom: -5px;
+    backdrop-filter: blur(2px); 
   }
   .para{
     font-weight: 300;
+    backdrop-filter: blur(2px);
   }
   .introText{
     font-size: 1.5rem;
     text-align: center;
     font-weight: 500;
-  }
-  .bgImg{
-    right: -11rem;
    
   }
+  .bgImg{
+    right: -8rem;
+   
+  }
+}
+@media screen and (max-width: 376px) {
+  .bgImg{
+    top: 1rem;
+    left: 5.2rem;
+    border-radius: 50%;
+    height: 12rem;
+  }
+}
+@media screen and (max-width: 321px){
+ .bgImg{
+left: 3.3rem;
+ }
 }
