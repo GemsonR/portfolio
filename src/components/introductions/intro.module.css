@@ -1,9 +1,10 @@
 .introContainer {
   height: calc(100vh - 4rem);
   width: 100vw;
-  max-width: 80rem;
+  max-width: 90rem;
   margin: 0 auto;
   overflow: hidden;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.1);
   position: relative;
 }
 .introText {
@@ -37,7 +38,7 @@
 }
 .para {
   font-size: 1rem;
-  font-weight: 200;
+  font-weight: 400;
 }
 .linkBtn {
   margin-top: 1rem;

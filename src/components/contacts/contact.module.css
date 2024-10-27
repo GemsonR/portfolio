@@ -3,6 +3,7 @@
   flex-direction: column;
   width: 100vw;
   margin: 0 auto;
+  position: relative;
   align-items: center;
 }
 .textContainer {
@@ -14,7 +15,7 @@
   font-weight: 400;
 }
 .textContainer p {
-  font-weight: 200;
+  font-weight: 300;
 }
 /*   */
 .contactForm {
@@ -22,21 +23,27 @@
   flex-direction: column;
   width: 100vw;
   max-width: 40rem;
+  border-radius: 0.5rem;
   gap: 1rem;
   margin: 3rem;
+  box-shadow: 0 0 4px rgba(0, 0, 0, 0.2);
+  padding: 1rem;
 }
 .contactForm input {
   padding: 1rem 0;
   border: none;
-  border-bottom: 1px solid grey;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
   font-size: 13px;
   color: white;
   font-weight: 200;
+  outline: none;
 }
-.msg{
-    font-weight: 200;
-    color: white;
-    resize: none;
+.msg {
+  font-weight: 200;
+  color: white;
+  resize: none;
+  outline: none;
+  border: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .btnContainer {
@@ -45,16 +52,19 @@
 }
 .btnContainer button {
   padding: 0.5rem 1rem;
-  background-color: white;
+  background-color: #76d2b4;
   display: flex;
   align-items: center;
   gap: 0.15rem;
   border: none;
   border-radius: 2rem;
   cursor: pointer;
+  color: #ffff;
+  transition: 0.2s;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.2);
 }
 .btnContainer button:hover {
-  background-color: rgb(233, 230, 230);
+  background-color: #53a78b;
 }
 .socialContainer {
   display: flex;
@@ -65,6 +75,11 @@
 .link {
   font-size: 200px;
 }
-.links{
+.links {
   color: #ffffff;
+  transition: .2s;
+  box-shadow: 0 1px 0 rgba(0, 0, 0, 0.1);
+}
+.links:hover {
+  color: #e8e2e2;
 }

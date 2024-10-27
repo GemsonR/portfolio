@@ -5,10 +5,14 @@ import jsImg from "../../../images/js-image.png";
 import reactImg from "../../../images/react-image.png";
 import htmlImg from "../../../images/html-image.png";
 import cssImg from "../../../images/css-image.png";
+import Decor from "../decorations/Decor";
 
 export default function Skills() {
   return (
     <section id="about" className={styles.skillContainer}>
+      <Decor height={"7rem"} width={"5rem"} rotate={"20deg"} bg={"#C4D2B4"} />
+      <Decor height={"6rem"} width={"4rem"} rotate={"-10deg"} bg={"#C4D2B4"} left={'30%'} bottom={"9rem"} />
+      <Decor height={"20rem"} width={"16rem"} rotate={"40deg"} bg={"#83D2B4"} top={"2rem"} right={0} />
       <h2 className={styles.skill}>What i do</h2>
       <p className={styles.text}>
         I specialize in creating visually engaging and user-friendly websites,

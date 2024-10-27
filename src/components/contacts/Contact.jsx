@@ -7,6 +7,7 @@ import SendIcon from "@mui/icons-material/Send";
 import { useRef } from "react";
 import emailjs from "@emailjs/browser";
 import { LinkedIn } from "@mui/icons-material";
+import Decor from "../decorations/Decor";
 
 export default function Contact() {
   const form = useRef();
@@ -31,6 +32,10 @@ export default function Contact() {
   };
   return (
     <section id="contact" className={styles.contactContainer}>
+      <Decor height={"4rem"} width={"6rem"} bg={"#C4D2B4"} rotate={"10deg"} left={0} />
+      <Decor height={"4rem"} width={"6rem"} bg={"#83D2B4"} rotate={"-20deg"} right={"15rem"} top={"4rem"} />
+      <Decor height={"30rem"} width={"25rem"} bg={"#83D2B4"} rotate={"30deg"} top={"10rem"} />
+      <Decor height={"6rem"} width={"4rem"} bg={"#83D2B4"} rotate={"18deg"} right={'20rem'} bottom={"3rem"} />
       <div className={styles.textContainer}>
         <h2>Contact</h2>
         <p>Please fill out the form below to discuss any work opportunities.</p>

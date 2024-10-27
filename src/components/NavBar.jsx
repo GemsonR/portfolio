@@ -1,10 +1,12 @@
 import { Link } from "react-scroll";
 import styles from "./navbar.module.css";
 import ChatBubbleOutlineRoundedIcon from "@mui/icons-material/ChatBubbleOutlineRounded";
+import Decor from "../components/decorations/Decor";
 
 export default function NavBar() {
   return (
     <nav className={styles.navbar}>
+      <Decor height={"10rem"} width={"10rem"} rotate={"-20deg"} bg={"#C4D2B4"} left={0} />
       <div className={styles.desktopMenu}>
         <Link
           activeClass={styles.active}
@@ -46,10 +48,11 @@ export default function NavBar() {
           onClick={() =>
             document
               .getElementById("contact")
-              .scrollIntoView({ behavior: "smooth"})
+              .scrollIntoView({ behavior: "smooth" })
           }
         >
-          <ChatBubbleOutlineRoundedIcon className={styles.contactIcon} /> Contact me
+          <ChatBubbleOutlineRoundedIcon className={styles.contactIcon} />{" "}
+          Contact me
         </button>
       </div>
     </nav>

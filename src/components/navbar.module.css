@@ -5,12 +5,13 @@
   display: flex;
   height: 5rem;
   width: 100vw;
-  max-width: 80rem;
+  padding: 0 3rem;
   margin: 0 auto;
   justify-content: space-between;
   z-index: 3;
-  background-color: #021526;
+  background: linear-gradient(to right, #76D2B4, #DCD2B4);  
   box-shadow: 0 0 2px rgba(0, 0, 0, 0.2);
+  overflow: hidden;
 }
 .listItem {
   margin: 1rem;
@@ -28,16 +29,20 @@
 }
 .menuBtn {
   padding: 0.5rem 1rem;
-  background-color: white;
+  background-color: #73d3b9;
   display: flex;
   align-items: center;
   border: none;
   border-radius: 10px;
   cursor: pointer;
-  transition: 0.15s;
+  transition: 0.2s;
+  color: #fff;
+  box-shadow: 0 1px 0 rgba(0,0,0,0.2);
+
 }
 .menuBtn:hover {
-  background-color: rgb(233, 230, 230);
+  background-color:#53a78b;
+
 }
 .active {
   color: yellow;
@@ -45,6 +50,9 @@
   border-bottom: 1px solid yellow;
 }
 @media screen and (max-width: 376px){
+  .navbar{
+    padding: 0 0.5rem;
+  }
   .listItem{
     margin: 0.6rem;
   }
